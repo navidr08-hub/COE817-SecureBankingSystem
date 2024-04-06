@@ -6,7 +6,7 @@ This project simulates an example of a banking system in a user interacts with a
 git clone https://github.com/navidr08-hub/COE817-SecureBankingSystem.git
 cd banking_system
 python -m venv env ("env" can be changed to a different name)
-env\Scripts\activate
+.venv\Scripts\activate
 pip install -r requirements.txt
 python client\atm.py
 python server\server.py
